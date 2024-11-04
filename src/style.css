@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reel {
+  height: 240px;
+  width: 80px;
+  overflow: hidden;
+  border: 1px solid black;
+  background: url("../public/slotreel.webp") repeat;
+  box-sizing: border-box;
+  /* transition: background-position-y 300ms cubic-bezier(.41,-0.01,.63,1.09); */
+  /* background-position-y: 560px; */
+}
